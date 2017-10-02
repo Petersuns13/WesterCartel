@@ -1,6 +1,6 @@
 body {
     
- background-color: #375E97;
+ background-color: #FCEABE;
 
 }
 
@@ -51,17 +51,19 @@ h1{
 		 
 }
 
-form {
+#form {
+	border-radius: 10px;
+	border: 1px solid black;
      padding: 30px; 
 	 width: 300px;
 	 display: block;
-	 background: #FAFAFA;
+	 background: #FBFCFC;
 	 margin: 0 auto;
 	 vertical-align: middle;
 	 position: relative;
 	 top: 80px;
 	 text-align:center;
-	 list-style-type: none;
+	 list-style-type:none;
     }
 	
 	
@@ -75,4 +77,6 @@ table {
 	
 }
 
-
+#coinhive{
+	insplay: inline-block;
+}
