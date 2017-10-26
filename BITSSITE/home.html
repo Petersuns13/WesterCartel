@@ -1,0 +1,222 @@
+<!DOCTYPE>
+
+ <html>
+
+ <head>
+ <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+ <Title>The Western Cartel</Title>
+ </head>
+
+ <body>
+
+ <header>
+   <div class="container">
+     <div id="title">
+       <h1>The Western Cartell</h1>
+     </div>
+     <nav>
+       <ul>
+         <li><a href="">|<span class="highlight"> HOME </span>   |</a></li>
+         <li><a href="">| SUBSCRIPTION |</a></li>
+         <li><a href="">| TRENDING |</a></li>
+         <li><a href="">| GAMES |</a></li>
+         <li><a href="">| DEVELOPER |</a></li>
+         <li><a href="login.html">| LOGIN |</a></li>
+       </ul>
+     </nav>
+   </div>
+   <div class="searchbar">
+     <input type="text" name="searchbar" placeholder="Looking for something?">
+     <input type="submit" value="Search">
+   </div>
+ </header>
+
+ <div class="slideshow-container">
+
+		<div class="mySlides fade">
+			<div class="numbertext"></div>
+			<img src="gta5pic.jpg" style="width:100%">
+			<div class="text"></div>
+		</div>
+
+		<div class="mySlides fade">
+			<div class="numbertext"></div>
+			<img src="batman.jpg" style="width:100%">
+			<div class="text"></div>
+		</div>
+
+		<div class="mySlides fade">
+			<div class="numbertext"></div>
+			<img src="battlefield.jpg" style="width:100%">
+			<div class="text"></div>
+		</div>
+
+		<div class="mySlides fade">
+			<div class="numbertext"></div>
+			<img src="darkSouls.jpg" style="width:100%">
+			<div class="text"></div>
+		</div>
+
+    <div class="mySlides fade">
+			<div class="numbertext"></div>
+			<img src="destiny.jpg" style="width:100%">
+			<div class="text"></div>
+		</div>
+
+    <div class="mySlides fade">
+			<div class="numbertext"></div>
+			<img src="dishonored.jpg" style="width:100%">
+			<div class="text"></div>
+		</div>
+
+    <div class="mySlides fade">
+			<div class="numbertext"></div>
+			<img src="fifa.jpg" style="width:100%">
+			<div class="text"></div>
+		</div>
+
+    <div class="mySlides fade">
+			<div class="numbertext"></div>
+			<img src="ghostRecon.jpg" style="width:100%">
+			<div class="text"></div>
+		</div>
+
+    <div class="mySlides fade">
+			<div class="numbertext"></div>
+			<img src="lastOfUs.jpg" style="width:100%">
+			<div class="text"></div>
+		</div>
+
+    <div class="mySlides fade">
+			<div class="numbertext"></div>
+			<img src="skyrim.jpg" style="width:100%">
+			<div class="text"></div>
+		</div>
+
+    <div class="mySlides fade">
+			<div class="numbertext"></div>
+			<img src="watchDogs.jpg" style="width:100%">
+			<div class="text"></div>
+		</div>
+
+    <div class="mySlides fade">
+			<div class="numbertext"></div>
+			<img src="witcher.jpg" style="width:100%">
+			<div class="text"></div>
+		</div>
+
+    <div class="mySlides fade">
+			<div class="numbertext"></div>
+			<img src="CSGO.jpg" style="width:100%">
+			<div class="text"></div>
+		</div>
+
+    <div class="mySlides fade">
+			<div class="numbertext"></div>
+			<img src="assassin.jpg" style="width:100%">
+			<div class="text"></div>
+		</div>
+
+    <div class="mySlides fade">
+			<div class="numbertext"></div>
+			<img src="shadowOfWar.jpg" style="width:100%">
+			<div class="text"></div>
+		</div>
+
+	</div>
+
+  <div style="text-align:center">
+	  <span class="dot"></span>
+	  <span class="dot"></span>
+	  <span class="dot"></span>
+	  <span class="dot"></span>
+    <span class="dot"></span>
+	  <span class="dot"></span>
+	  <span class="dot"></span>
+	  <span class="dot"></span>
+    <span class="dot"></span>
+	  <span class="dot"></span>
+	  <span class="dot"></span>
+	  <span class="dot"></span>
+    <span class="dot"></span>
+	  <span class="dot"></span>
+	  <span class="dot"></span>
+	</div>
+
+
+  <script>
+		var slideIndex = 0;
+		showSlides();
+
+		function showSlides() {
+			var i;
+			var slides = document.getElementsByClassName("mySlides");
+			var dots = document.getElementsByClassName("dot");
+			for (i = 0; i < slides.length; i++) {
+			   slides[i].style.display = "none";
+			}
+			slideIndex++;
+			if (slideIndex> slides.length) {slideIndex = 1}
+			for (i = 0; i < dots.length; i++) {
+				dots[i].className = dots[i].className.replace(" active", "");
+			}
+			slides[slideIndex-1].style.display = "block";
+			dots[slideIndex-1].className += " active";
+			setTimeout(showSlides, 2000); // Change image every 2 seconds
+		}
+	</script>
+
+
+  <div class="games">
+   <table class="gameT" cellpadding="30" cellspacing="5">
+     <tr>
+       <td><img src="gta5pic.jpg" height="150"><br> <br>  <span class="gameText">GTA 5</span></td>
+        <td><img src="batman.jpg" height="150"><br> <br>  <span class="gameText">Batman Arkham Knight</span></td>
+        <td><img src="battlefield.jpg" height="150"><br>  <br>  <span class="gameText">Battlefield 1</span></td>
+     </tr>
+     <tr>
+       <td><img src="darkSouls.jpg" height="150"><br> <br> <span class="gameText">Dark Souls 3</span></td>
+        <td><img src="destiny.jpg" height="150"><br>  <br> <span class="gameText">Destiny 2</span></td>
+        <td><img src="dishonored.jpg" height="150"><br> <br> <span class="gameText">Dishonored 2</span></td>
+     </tr>
+     <tr>
+       <td><img src="fifa.jpg" height="150"><br>  <br>  <span class="gameText">FIFA 18</span></td>
+        <td><img src="ghostRecon.jpg" height="150"><br> <br>  <span class="gameText">Tom Clancy's: Ghost Recon</span></td>
+        <td><img src="lastOfUs.jpg" height="150"><br> <br>  <span class="gameText">The Last Of Us</span></td>
+     </tr>
+     <tr>
+       <td><img src="skyrim.jpg" height="150"><br>  <br>  <span class="gameText">Skyrim</span></td>
+        <td><img src="watchDogs.jpg" height="150"><br>  <br>  <span class="gameText">Watch Dogs</span></td>
+        <td><img src="witcher.jpg" height="150"><br>  <br>  <span class="gameText">The Witcher 3: Wild Hunt</span></td>
+     </tr>
+     <tr>
+       <td><img src="CSGO.jpg" height="150"><br>  <br>  <span class="gameText">Counter Strike Global Offensive</span></td>
+        <td><img src="assassin.jpg" height="150"><br> <br>  <span class="gameText">Assassins Creed</span></td>
+        <td><img src="shadowOfWar.jpg" height="150"><br>  <br>  <span class="gameText">Middle Earth: Shadow Of War</span></td>
+     </tr>
+   </table>
+ </div>
+
+  <div class="side">
+   <aside class="sidebar">
+       <h4>Twitter</h4>
+       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean mollis purus dolor, vitae consectetur diam imperdiet at. Duis id semper enim. Morbi vel diam rutrum, iaculis arcu eu</p>
+
+       <br/>
+       <h4>Reddit</h4>
+       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean mollis purus dolor, vitae consectetur diam imperdiet at. Duis id semper enim. Morbi vel diam rutrum, iaculis arcu eu, mattis velit. Donec vestibulum sem id sodales iaculis. Praesent fringilla placerat enim ut posuere. Ut semper magna</p>
+   </aside>
+
+ </div>
+
+ <div class="sub">
+    <a href="email.html"> <button type="button" class="button_1" onclick="email.html">Subscribe</button></a>
+ </div>
+ </body>
+
+<footer>
+</footer>
+
+
+ </html>
